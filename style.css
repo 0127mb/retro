@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    align-items: center;
+    ;
+    justify-content: space-around;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-left: 200px;
+}
+
+.put {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+  main {width:  1920px;
+    height: 875px;
+    background-image: url(./1.png);
+
+   } 
+  
+
+    
+
+
+main h1,
+p {
+    width: 500px;
+    color: white;
+    padding-top: 50px;
+}
+
+main button {
+    padding-left: 20px;
+}
+
+main h1 {
+    font-size: 70px;
+}
+
+main button {
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(245, 117, 32, 1);
+}
+
+.guy {
+    padding-left: 200px;
+}
+.for{width: 400px; 
+    height: 462px;
+    color: white; margin-top: 200px; background-color: rgba(245, 117, 32, 1); }
+.main {background-image: none; }
+.for h3,p{width: 300px;}
+.fox{background-color: rgba(16, 16, 16, 1); color: white;width: 400px;height: 462px;}
+
+
+.fox {
+    width: calc(25% - 15px); /* Har biri 25% joy egallaydi, ya'ni 4 tadan chiqadi */
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Chiroyli chiqishi uchun chegaralar */
+    padding: 10px; /* Ichki bo‘shliq */
+    text-align: center; /* Matn markazga */
+}
+
+.for {
+    width: 100%; /* Birinchi blok to‘liq qatorni egallaydi */
+    text-align: center;
+}
+.kal { display: flex;  flex-wrap: wrap ;  justify-content: space-between; gap: 200px;}
